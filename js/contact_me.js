@@ -1,59 +1,41 @@
 $(function() {
+
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
-            // zusätzliche Fehlermeldungen oder Ereignisse
+            // additional error messages or events
         },
         submitSuccess: function($form, event) {
-            event.preventDefault(); // Standard-Formularverhalten verhindern
-
-            // Werte aus dem Formular abrufen
+            event.preventDefault(); // prevent default submit behaviour
+            // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
-            var firstName = name; // Für Erfolgs-/Fehlermeldung
-
-            // Überprüfen auf Leerzeichen im Namen für Erfolgs-/Fehlermeldung
+            var firstName = name; // For Success/Failure Message
+            // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-
-            // AJAX-Anfrage an Formspree
             $.ajax({
                 url: "https://formspree.io/f/mdkeoraw",  // Deine echte Formspree-ID
                 method: "POST",
                 data: {
-                    name: name,
-                    email: email,
-                    phone: phone,
-                    message: message
+                    name: $("#name").val(),
+                    email: $("#email").val(),
+                    phone: $("#phone").val(),
+                    message: $("#message").val()
                 },
                 dataType: "json",
                 success: function() {
-                    // Erfolgsnachricht
-                    $('#success').html("<div class='alert alert-success'>");
-                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
-                    $('#success > .alert-success')
-                        .append('</div>');
-
-                    // Alle Felder zurücksetzen
+                    alert("Deine Nachricht wurde erfolgreich gesendet!");
                     $('#contactForm').trigger("reset");
                 },
                 error: function() {
-                    // Fehlermeldung
-                    $('#success').html("<div class='alert alert-danger'>");
-                    $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
-                    $('#success > .alert-danger').append('</div>');
-                    // Alle Felder zurücksetzen
-                    $('#contactForm').trigger("reset");
+                    alert("Fehler beim Senden der Nachricht. Bitte versuche es später erneut.");
+ 
                 },
-            });
+            })
         },
         filter: function() {
             return $(this).is(":visible");
@@ -66,7 +48,8 @@ $(function() {
     });
 });
 
-/* Wenn auf den Namen geklickt wird, verstecke die Fehlermeldungen */
+
+/*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
     $('#success').html('');
 });
