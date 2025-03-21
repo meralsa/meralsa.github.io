@@ -1,0 +1,15 @@
+---
+title: Hauspreis Vorhersage
+subtitle: Der Schlüssel zu fundierten Immobilienentscheidungen
+layout: default
+modal-id: 1
+date: 2025-03-20
+#img: Hauspreis.png
+thumbnail: Hauspreis.png
+alt: image-alt
+#project-date: März 2025
+#client: /
+#category: EDA, Regression
+description: Entschlüsselung der entscheidenden Faktoren, die den Preis eines Hauses beeinflussen – wie Größe, Lage und Ausstattung.
+project-link: https://meralsa.github.io/portfolio/housprediction.html
+---

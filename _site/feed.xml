@@ -5,9 +5,42 @@
     <description>Meral&apos;s Bewerbungsprofil</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 13 Mar 2025 18:21:35 +0100</pubDate>
-    <lastBuildDate>Thu, 13 Mar 2025 18:21:35 +0100</lastBuildDate>
+    <pubDate>Fri, 21 Mar 2025 14:50:13 +0100</pubDate>
+    <lastBuildDate>Fri, 21 Mar 2025 14:50:13 +0100</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>Kundenschwund</title>
+        <description>
+</description>
+        <pubDate>Fri, 21 Mar 2025 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2025/03/21/project-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/03/21/project-2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hauspreis Vorhersage</title>
+        <description>
+</description>
+        <pubDate>Thu, 20 Mar 2025 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2025/03/20/project-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/03/20/project-1/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Stay tuned for more..</title>
+        <description>
+</description>
+        <pubDate>Mon, 10 Mar 2025 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2025/03/10/project-3/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/03/10/project-3/</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>

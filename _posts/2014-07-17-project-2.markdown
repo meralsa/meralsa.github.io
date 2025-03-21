@@ -1,0 +1,16 @@
+---
+title: Kundenschwund
+subtitle: Vom Risiko zur Chance - im Telekommunikationsmarkt
+layout: default
+modal-id: 2
+date: 2025-03-21
+#img: telco.png
+thumbnail: telco.png
+alt: image-alt
+#project-date: April 2014
+#client: Start Bootstrap
+#category: Web Development
+description: Viele Telekommunikationsunternehmen kämpfen mit einer Abwanderungsrate (Churn) von 15-25 % pro Monat. Es ist deutlich günstiger, bestehende Kunden zu halten, als ständig neue zu gewinnen.
+project-link: https://meralsa.github.io/portfolio/churn.html#
+
+---
