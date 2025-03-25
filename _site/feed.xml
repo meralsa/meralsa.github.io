@@ -5,8 +5,8 @@
     <description>Meral&apos;s Bewerbungsprofil</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Mar 2025 11:22:31 +0100</pubDate>
-    <lastBuildDate>Tue, 25 Mar 2025 11:22:31 +0100</lastBuildDate>
+    <pubDate>Tue, 25 Mar 2025 13:19:26 +0100</pubDate>
+    <lastBuildDate>Tue, 25 Mar 2025 13:19:26 +0100</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
@@ -16,6 +16,17 @@
         <pubDate>Fri, 21 Mar 2025 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/2025/03/21/project-2/</link>
         <guid isPermaLink="true">http://localhost:4000/2025/03/21/project-2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Optimierung der Gesundheitsausgaben</title>
+        <description>
+</description>
+        <pubDate>Fri, 21 Mar 2025 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2025/03/21/project-3/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/03/21/project-3/</guid>
         
         
       </item>
@@ -36,8 +47,8 @@
         <description>
 </description>
         <pubDate>Mon, 10 Mar 2025 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2025/03/10/project-3/</link>
-        <guid isPermaLink="true">http://localhost:4000/2025/03/10/project-3/</guid>
+        <link>http://localhost:4000/2025/03/10/project-4/</link>
+        <guid isPermaLink="true">http://localhost:4000/2025/03/10/project-4/</guid>
         
         
       </item>

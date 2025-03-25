@@ -1,15 +1,16 @@
 ---
-title: Stay tuned for more..
-subtitle: Das ist erst der Anfang!                   
+title: Optimierung der Gesundheitsausgaben
+subtitle: Prävention für Risikogruppen
 layout: default
 modal-id: 3
-date: 2025-03-10
-#img: golden.png
-thumbnail: next.png
+date: 2025-03-21
+#img: telco.png
+thumbnail: health.png
 alt: image-alt
 #project-date: April 2014
 #client: Start Bootstrap
 #category: Web Development
-#description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Viele Telekommunikationsunternehmen kämpfen mit einer Abwanderungsrate (Churn) von 15-25 % pro Monat. Es ist deutlich günstiger, bestehende Kunden zu halten, als ständig neue zu gewinnen.
+project-link: https://meralsa.github.io/portfolio/medical_cost.html#
 
 ---
