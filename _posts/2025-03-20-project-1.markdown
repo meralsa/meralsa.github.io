@@ -3,7 +3,7 @@ title: Hauspreis Vorhersage
 subtitle: Der Schlüssel zu fundierten Immobilienentscheidungen
 layout: default
 modal-id: 1
-date: 2025-03-20
+date: 2025-03-11
 #img: Hauspreis.png
 thumbnail: Hauspreis.png
 alt: image-alt
